@@ -1,42 +1,49 @@
 import data from "@/data/data";
+import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
 export default function Home() {
   // Sort the data by 'won' in descending order
   const sortedData = [...data].sort((a, b) => b.won - a.won);
 
   return (
-    <main className="container mx-auto px-4 pb-20">
-      <h1 className="text-2xl font-bold text-center my-6">Campeonato de Truco de la Peña</h1>
+    <div className="container mx-auto px-4 pb-20 pt-6">
+      <header className="text-center mb-8">
+        <h1 className="text-4xl font-bold mb-2">Campeonato de Truco</h1>
+        <p className="text-muted-foreground">Temporada 2025</p>
+      </header>
 
-      <div className="bg-white rounded-lg shadow-md overflow-hidden">
-        <div className="bg-primary text-primary-foreground p-3">
+      <Card className="bg-card/50 backdrop-blur-sm">
+        <div className="bg-primary text-primary-foreground p-4">
           <h2 className="text-xl font-semibold">Tabla de Posiciones</h2>
         </div>
 
         <div className="overflow-x-auto">
           <table className="w-full">
             <thead>
-              <tr className="bg-muted">
-                <th className="py-3 px-4 text-left">#</th>
-                <th className="py-3 px-4 text-left">Jugador</th>
-                <th className="py-3 px-4 text-center">Partidos</th>
-                <th className="py-3 px-4 text-center">Ganados</th>
+              <tr className="bg-muted/50">
+                <th className="py-4 px-4 text-left">#</th>
+                <th className="py-4 px-4 text-left">Jugador</th>
+                <th className="py-4 px-4 text-center">Partidos</th>
+                <th className="py-4 px-4 text-center">Ganados</th>
               </tr>
             </thead>
             <tbody>
               {sortedData.map((player, index) => (
-                <tr key={index} className="border-t border-muted">
-                  <td className="py-3 px-4 font-medium">{index + 1}</td>
-                  <td className="py-3 px-4">{player.name}</td>
-                  <td className="py-3 px-4 text-center text-muted-foreground">{player.played}</td>
-                  <td className="py-3 px-4 text-center font-bold">{player.won}</td>
+                <tr key={index} className="border-t border-muted/20 hover:bg-muted/50 transition-colors">
+                  <td className="py-4 px-4">
+                    <span className="font-medium text-muted-foreground">{index + 1}</span>
+                  </td>
+                  <td className="py-4 px-4 font-medium">{player.name}</td>
+                  <td className="py-4 px-4 text-center text-muted-foreground">{player.played}</td>
+                  <td className="py-4 px-4 text-center font-bold">{player.won}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
-      </div>
-    </main>
+      </Card>
+    </div>
   )
 }
 
