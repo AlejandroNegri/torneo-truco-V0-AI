@@ -1,18 +1,18 @@
 const data = [
     {
         name: "Gomera",
-        played: 34,
-        won: 19
+        played: 35,
+        won: 20
     },
     {
         name: "Rama",
-        played: 28,
-        won: 10
+        played: 29,
+        won: 11
     },
     {
         name: "Pepo",
-        played: 16,
-        won: 5
+        played: 17,
+        won: 6
     },
     {
         name: "Tronki",
@@ -21,13 +21,13 @@ const data = [
     },
     {
         name: "Hope",
-        played: 22,
+        played: 23,
         won: 14
     },
     {
         name: "Nico",
-        played: 19,
-        won: 11
+        played: 20,
+        won: 12
     },
     {
         name: "Lucho",
@@ -36,7 +36,7 @@ const data = [
     },
     {
         name: "Cañita",
-        played: 29,
+        played: 30,
         won: 14
     },
     {
@@ -46,33 +46,33 @@ const data = [
     },
     {
         name: "Gordo",
-        played: 36,
+        played: 37,
         won: 23
     },
     {
         name: "Alex",
-        played: 22,
-        won: 12
+        played: 23,
+        won: 13
     },
     {
         name: "Maxi",
-        played: 36,
+        played: 37,
         won: 11
     },
     {
         name: "Tuki",
-        played: 27,
+        played: 28,
         won: 16
     },
     {
         name: "Enano",
-        played: 24,
+        played: 25,
         won: 11
     },
     {
         name: "Lagarto",
-        played: 21,
-        won: 13
+        played: 22,
+        won: 14
     },
     {
         name: "Adrink",
