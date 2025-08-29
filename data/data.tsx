@@ -6,8 +6,8 @@ const data = [
     },
     {
         name: "Rama",
-        played: 31,
-        won: 11
+        played: 37,
+        won: 16
     },
     {
         name: "Pepo",
