@@ -37,7 +37,7 @@ const data = [
     {
         name: "Cañita",
         played: 42,
-        won: 11
+        won: 19
     },
     {
         name: "Charly",
