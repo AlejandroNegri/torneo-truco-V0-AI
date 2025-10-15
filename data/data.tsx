@@ -6,8 +6,8 @@ const data = [
     },
     {
         name: "Rama",
-        played: 48,
-        won: 22
+        played: 52,
+        won: 23
     },
     {
         name: "Pepo",
@@ -26,13 +26,13 @@ const data = [
     },
     {
         name: "Nico",
-        played: 33,
-        won: 21
+        played: 36,
+        won: 24
     },
     {
         name: "Lucho",
-        played: 35,
-        won: 14
+        played: 39,
+        won: 15
     },
     {
         name: "Cañita",
@@ -46,8 +46,8 @@ const data = [
     },
     {
         name: "Gordo",
-        played: 58,
-        won: 30
+        played: 62,
+        won: 32
     },
     {
         name: "Alex",
@@ -56,18 +56,18 @@ const data = [
     },
     {
         name: "Maxi",
-        played: 52,
-        won: 18
+        played: 56,
+        won: 21
     },
     {
         name: "Lea",
-        played: 53,
-        won: 32
+        played: 58,
+        won: 35
     },
     {
         name: "Enano",
-        played: 37,
-        won: 17
+        played: 41,
+        won: 20
     },
     {
         name: "Lagarto",
@@ -76,13 +76,13 @@ const data = [
     },
     {
         name: "Adrink",
-        played: 10,
-        won: 5
+        played: 14,
+        won: 6
     },
     {
         name: "Gabi",
-        played: 11,
-        won: 6
+        played: 15,
+        won: 7
     },
       {
         name: "Foco",
